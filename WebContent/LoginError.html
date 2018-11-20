@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Musicforyou</title>
+<link rel="shortcut icon" href="images/logo1.png" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Fabio Grauso-Antonio Salzano">
+<link rel="stylesheet" href="responsive.css">
+	
+</head>
+<body>
+
+<header class="top">
+	
+		<a href="ProductView.jsp"><img class="logo" src="images/logo2.png"></a>
+	
+</header>
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+<div class="topnav" id="myTopnav">
+			<a href="Contatti.jsp"  class="active">Contact</a>
+  			<a href="ProductView.jsp">Home</a>
+ 			<a href="AboutUs.jsp">About us</a>
+  			
+  			<a href="ProductControl?action=view_cart">Shopping Cart</a>
+  				
+  			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    			<i class="fa fa-bars"></i>
+  			</a>
+  		
+			</div>
+
+
+
+<div align="center">
+<h2>Invalid user name or password</h2>
+
+    <p>Please enter a user name or password that is authorized to access this 
+    application<p>
+	
+	
+	
+<form id="login_form" action="Login" method="post">
+		
+				<div class="tableRow">
+				<p>Username:</p><p><input type="text" name="username" placeholder="enter login"></p>
+				</div>
+				
+				<div class="tableRow">
+				<p>Password:</p><p><input type="password" name="password"  placeholder="enter password"></p>
+				</div>
+				
+				
+		
+		<div class="tableRow">
+		<p></p>
+		<p>
+			  <input type="submit" value="Login"/>
+			&nbsp;
+			<input type="reset" value="Reset">
+		</p>
+		</div>	
+	</form>
+	
+	<p  id="start_registration">New Customer? <a href="Registration.jsp">Start here</a></p>
+	</div>
+
+<footer class="bottom">
+	
+	&copy; All rights reserved 2018 - Musicforyou<br>
+     
+</footer>
+
+</body>
+</html>

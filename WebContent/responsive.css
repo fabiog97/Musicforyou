@@ -1,0 +1,606 @@
+
+
+
+
+.story{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+
+/* Inizio codice css scritto da Salzanoa */
+
+/* Codice riguardante pagina registrazione */
+
+
+
+form#registration_form {
+	display: table;
+	padding: 15px;
+	border: groove white;
+	background-color: #1ea9e0;
+	margin: 20px;
+}
+
+p#condition_agree{
+	font-size: 70%;
+}
+
+div.tableRow {
+	display: table-row;
+	
+}
+
+div.tableRow p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 5px;
+	
+}
+
+div.tableRow p: first-child{
+	text-align: right;
+}
+
+div.tableRow input[type=text],
+div.tableRow input[type=date],
+div.tableRow input[type=tel]{
+	widht: 180px;
+}
+
+
+
+/* Codice riguardante pagine contact us e about us */
+
+
+
+img#album-musicali{
+	width: 25%;
+	float: right;
+}
+
+h2#about-us{
+	text-align: center;
+	color: #1ea9e0;
+	
+}
+
+P#pabout-us{
+	text-align: center;
+	color: #1ea9e0;
+}
+
+
+
+p.number{
+	text-align: center;
+}
+
+h2#contact-us{
+	padding-top: 30px;
+	color:#1ea9e0;
+	text-align:center;
+}
+
+h2#call-us{
+	color:#1ea9e0;
+	text-align:center;
+	padding-top: 30px;
+}
+
+input#formname{
+	border: 3px solid #1ea9e0;
+	width: 186px;
+	height: 35px;
+}
+
+input#formemail{
+	border: 3px solid #1ea9e0;
+	width: 186px;
+	height: 35px;
+}
+
+textarea#formcomment{
+	border: 3px solid #1ea9e0;
+	width: 378px;
+	height: 100px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#formbutton{
+	color:#3a3a3a;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #1ea9e0;
+	margin:auto;
+  	display:block;
+  	width: 300px;
+  	height: 30px;
+  	font-size:80%;
+    
+}
+
+
+.left-column {
+
+   
+    margin-top: 20px;
+   
+    margin-bottom: 20px;
+  
+}
+
+.right-column {
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+/* Fine codice css scritto da SalzanoA */
+
+div.main{
+	width: 100px;
+	height: 100px;
+	
+}
+
+div.main img{
+	width: 100%;
+	height: 85%;
+}
+
+.change{
+	-ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
+
+.logo{
+	width:40%;
+}
+
+.loader {
+display: none;
+position: fixed;
+left: 0px;
+top: 0px;
+width: 100%;
+height: 100%;
+z-index: 9999;
+background: #fafafa url(../img/page-loader.gif) no-repeat center center;
+text-align: center;
+color: #999;
+}
+
+
+.box_search{
+	padding: 5%;	
+}
+
+
+#start_registration a:link, a:visited{
+	color: #1ea9e0;
+	text-decoration: none;
+}
+
+#start_registration a:hover{
+	color: black;
+}
+
+form#login_form {
+	padding: 15px;
+	border: groove white;
+	background-color: #1ea9e0;
+	text_align: center;	
+	display: table;
+	margin: 20px;
+}
+
+p#cart{
+	font-size:80%;
+}
+h2{
+	color: #24303d;
+}
+
+div.cart{
+	margin: 3%;
+}
+
+div.login{
+	align: center;
+	margin: 3%;
+}
+
+#total_price{
+	font-size: 140%;
+	font-weight: bold;
+	color: red;
+	float: right;
+	padding-right: 10%;	
+}
+
+#total_quantity{
+	font-size: 140%;
+	font-weight: bold;
+	color: green;
+	float: right;
+	padding-right: 10%;	
+}
+
+
+#cart_action a:link, a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+#cart_action a:hover{
+	color: red;
+}
+
+#cart_button{
+	color:#3a3a3a;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #1ea9e0;
+	margin: 2%;
+  	display:block;
+  	width: 200px;
+  	height: 30px;
+  	font-size:80%;
+  	text-decoration: none;
+    
+}
+
+
+#cart_price{
+	font-size: 130%;
+	font-weight: bold;
+	color: red;
+	
+	
+}
+
+table.details{
+   
+   width: 60%;
+   text-align: center;
+   margin-bottom: 10%; 
+   
+}
+table.cart{
+   border: 2px solid black;
+   width: 100%;
+   text-align: center;
+   
+}
+
+div.box
+{
+	text-align: center;
+	padding-left: 5%;
+    padding-right: 5%;
+    height: 450px;
+    overflow: scroll;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+
+td.title{
+	font-size: 15px;
+}
+
+img.logo{
+	margin: 0 auto;
+	display: block;
+}
+
+body{
+	background-color: #f4f4f4;
+}
+
+* {
+	font-family: Arial, sans-serif;
+}
+
+div.top{
+	min-width:300px;
+	max-width:1300px;
+	max-height:800px;
+	min-height:400px;
+	background-image: url("images/img_top2.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.top_contact{
+	min-width:300px;
+	max-width:1300px;
+	max-height:800px;
+	min-height:400px;
+	background-image: url("images/contact.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.top_aboutus{
+	min-width:300px;
+	max-width:1300px;
+	max-height:800px;
+	min-height:400px;
+	background-image: url("images/cover_collage.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+header {
+	margin: 0%;
+	padding: 4%;
+	background-color: #24303d;
+}
+
+h1{
+	text-align: center;
+	diplay: inline;
+	font-size: 50px;
+	color: #1ea9e0;
+}
+
+
+
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 14px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #1ea9e0;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.active {
+  background-color: white;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+footer.bottom {
+	clear: both;
+	height: 50px;
+	padding: 40px 10px 40px 10px;
+	background-color: #1ea9e0;
+	text-align: center;
+	font-size: 70%;
+  
+}
+
+article{
+	color: #191970;
+}
+
+div#multiColumn {
+	border: 1px solid black;
+	width: 100%;
+}
+
+
+
+/***************/
+@media screen and (max-width: 1100px) {
+
+	
+	div.box
+	{
+		padding-left: 5%;
+	    padding-right: 5%;
+	    height: 450px;
+	    overflow: scroll;
+	    margin: auto;
+	    width: 60%;
+	    padding: 10px;
+	}
+	
+	div.top{
+		min-width:300px;
+		max-width:1300px;
+		max-height:700px;
+		min-height:300px;
+	}
+
+  	
+  
+  
+/***************/
+
+
+@media screen and (max-width: 800px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+/***************/
+@media screen and (max-width: 800px) {
+	
+	form#registration_form {
+		display: table;
+		padding: 5px;
+		border: groove white;
+		background-color: #1ea9e0;
+		margin: 2px;
+	}
+	
+	#demo{
+		font-size:20%;
+	}
+	
+	.story{
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+	
+	div.top_contact{
+	display: none;
+	}
+	
+	div.top_aboutus{
+	display: none;
+	}
+	
+	.topnav.responsive {
+	position: relative;
+	}
+  	
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  	}
+  
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+	body {
+		margin: auto;
+		width: 85%;
+	}
+	header.top {
+		height: 40px;
+		text-align: left;
+	}
+	
+	
+	
+	header {
+		text-align: center;
+	}
+	footer {
+		text-align: center;
+	}
+	
+	div.top{
+		min-width:300px;
+		max-width:1300px;
+		max-height:600px;
+		min-height:200px;
+	}
+	
+	.container {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+    
+}
+
+	.topnav .search-container {
+    		float: none;
+ 	 }
+  
+  .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+@media screen and (max-width: 600px) {
+	
+	table.cart{
+   		border: 2px solid black;
+   		font-size: 20%;
+   		text-align: center;
+   	}
+	input#formname{
+	border: 3px solid #1ea9e0;
+	width: 135px;
+	height: 35px;
+	}
+
+	input#formemail{
+	border: 3px solid #1ea9e0;
+	width: 135px;
+	height: 35px;
+	}
+	
+	textarea#formcomment{
+	border: 3px solid #1ea9e0;
+	width: 278px;
+	height: 100px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+
+.story{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+	.logo{
+	width:50%;
+}
+	
+	
+}
